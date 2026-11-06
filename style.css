@@ -1,0 +1,156 @@
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #26344d;
+    line-height: 1.7;
+    background-color: #ffffff;
+}
+
+.gold, span {
+    color: #b58b55;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #18253d;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav h2 {
+    color: #ffffff;
+}
+
+nav div a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+/* Header / Home */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    background: #ffffff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+header h3 {
+    color: #18253d;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #18253d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Foto Profil Bulat */
+.circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #b58b55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section Umum */
+section {
+    padding: 60px 10%;
+}
+
+.gray {
+    background-color: #f8fafc;
+}
+
+/* Grid & Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 240px;
+}
+
+.card small {
+    color: #64748b;
+    font-size: 0.85rem;
+}
+
+.card h3 {
+    color: #18253d;
+    margin-top: 5px;
+}
+
+/* Tampilan Kartu Pendidikan */
+.card.education {
+    border-left: 4px solid #b58b55;
+}
+
+.card.education small {
+    color: #b58b55;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card.education p {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    background: #18253d;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 10%;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #94a3b8;
+}
