@@ -10,71 +10,101 @@
 
     <!-- Navbar -->
     <nav>
-        <a href="#home">Home</a> |
-        <a href="#biodata">Biodata</a> |
-        <a href="#pendidikan">Pendidikan</a> |
-        <a href="#alamat">Alamat</a> |
-        <a href="#tentang">Tentang Saya</a>
+        <h2>ZAKY<span>.</span></h2>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#biodata">Biodata</a>
+            <a href="#pendidikan">Pendidikan</a>
+            <a href="#alamat">Alamat</a>
+        </div>
     </nav>
-
-    <hr>
 
     <!-- Home -->
     <header id="home">
-        <h1>SELAMAT DATANG DI WEBSITE BIODATA SAYA</h1>
-        <h2>Zaky Bagaskara</h2>
-        <p>Mahasiswa Sistem Informasi</p>
+        <div>
+            <p class="gold">WELCOME TO MY WEBSITE</p>
+            <h1>Halo, Saya<br><span>Zaky Bagaskara.</span></h1>
+            <h3>Mahasiswa Sistem Informasi</h3>
+            <p>Website pribadi untuk memperkenalkan diri dan informasi tentang saya.</p>
+            <a href="#about" class="btn">Kenali Saya ↗</a>
+        </div>
+        <!-- Foto Profil Bulat -->
+        <div class="circle">
+            <img src="zaky.jpeg" alt="Zaky Bagaskara">
+        </div>
     </header>
 
-    <hr>
-
-    <!-- Biodata -->
-    <section id="biodata">
-        <h2>Biodata Diri</h2>
-        <p>Nama: Zaky Bagaskara</p>
-        <p>NIM: 20250910071</p>
-        <p>Status: Mahasiswa</p>
-    </section>
-
-    <hr>
-
-    <!-- Pendidikan -->
-    <section id="pendidikan">
-        <h2>Riwayat Pendidikan</h2>
-        <p>Program Studi: Sistem Informasi</p>
-        <p>Fakultas: Ilmu Komputer</p>
-    </section>
-
-    <hr>
-
-    <!-- Alamat -->
-    <section id="alamat">
-        <h2>Alamat</h2>
-        <p>Desa: Garawangi</p>
-        <p>Kecamatan: Garawangi</p>
-        <p>Kabupaten: Kuningan</p>
-    </section>
-
-    <hr>
-
-    <!-- Tentang Saya -->
-    <section id="tentang">
+    <!-- About -->
+    <section id="about">
+        <p class="gold">01 / ABOUT ME</p>
         <h2>Tentang Saya</h2>
-        <p>
+        <p class="description">
             Perkenalkan, nama saya Zaky Bagaskara.
             Saya merupakan mahasiswa Program Studi Sistem Informasi,
-            Fakultas Ilmu Komputer.
-            Website ini dibuat sebagai media untuk memperkenalkan
-            biodata diri saya.
+            Fakultas Ilmu Komputer di Universitas Kuningan. Website ini dibuat untuk
+            memperkenalkan diri dan membagikan informasi pribadi saya.
         </p>
     </section>
 
-    <hr>
+    <!-- Biodata -->
+    <section id="biodata" class="gray">
+        <p class="gold">02 / PERSONAL DATA</p>
+        <h2>Biodata Diri</h2>
+        <div class="cards">
+            <div class="card"><small>Nama</small><h3>Zaky Bagaskara</h3></div>
+            <div class="card"><small>NIM</small><h3>20250910071</h3></div>
+            <div class="card"><small>Status</small><h3>Mahasiswa</h3></div>
+            <div class="card"><small>Tempat, Tanggal Lahir</small><h3>Bandung, 09 Agustus 2006</h3></div>
+            <div class="card"><small>Hobi</small><h3>Ngaji</h3></div>
+        </div>
+    </section>
+
+    <!-- Pendidikan -->
+    <section id="pendidikan">
+        <p class="gold">03 / EDUCATION</p>
+        <h2>Pendidikan</h2>
+        <div class="cards">
+            <div class="card education">
+                <small>Sekolah Dasar</small>
+                <h3>SDN 255 Griya Bumi Antapani</h3>
+                <p>Bandung</p>
+            </div>
+            <div class="card education">
+                <small>Sekolah Menengah Pertama</small>
+                <h3>SMPN 1 Garawangi</h3>
+                <p>Kuningan</p>
+            </div>
+            <div class="card education">
+                <small>Sekolah Menengah Kejuruan</small>
+                <h3>SMKN 3 Kuningan</h3>
+                <p>Kuningan</p>
+            </div>
+            <div class="card education">
+                <small>Perguruan Tinggi</small>
+                <h3>Universitas Kuningan</h3>
+                <p>S1 Sistem Informasi - Fakultas Ilmu Komputer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alamat -->
+    <section id="alamat" class="gray">
+        <p class="gold">04 / LOCATION</p>
+        <h2>Alamat Saya</h2>
+        <div class="cards">
+            <div class="card"><small>Dusun / RT / RW</small><h3>Dusun Manis RT 04 / RW 04</h3></div>
+            <div class="card"><small>Desa</small><h3>Garawangi</h3></div>
+            <div class="card"><small>Kecamatan</small><h3>Garawangi</h3></div>
+            <div class="card"><small>Kabupaten</small><h3>Kuningan</h3></div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Zaky Bagaskara</p>
-        <p>Website Biodata Diri</p>
+        <h2>ZAKY<span>.</span></h2>
+        <p>Personal Website | Sistem Informasi</p>
+        <small>© 2026 Zaky Bagaskara</small>
     </footer>
 
 </body>
